@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+.card {
+  background-color: #fff;
+  border-radius: 0.2rem;
+  box-shadow: 0 0.063rem 0 rgb(9 30 66 / 25%);
+  cursor: move;
+  margin-bottom: 0.5rem;
+  min-height: 1.25rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  &:hover {
+    background-color: #f9f9f9;
+  }
+  &__input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+}

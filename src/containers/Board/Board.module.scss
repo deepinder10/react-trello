@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+.board {
+  &__header {
+    padding: 0.625rem 0.5rem;
+    margin: 0;
+  }
+  &__content {
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  &__footer {
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    &__label {
+      color: #5e6c84;
+      font-size: 0.8rem;
+      font-weight: 500;
+      cursor: pointer;
+      &:hover {
+        color: #414a5a;
+      }
+    }
+  }
+}
